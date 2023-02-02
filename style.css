@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background-color: rgb(26, 116, 116);
+	width: 100vw;
+	height: 100vh;
+}
+
+nav {
+	text-align: right;
+	margin-right: 100px;
+	line-height: 90px;
+}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px;
+	color: white;
+}
+
+.naglowek {
+	position: absolute;
+	font-size: 40px;
+	color: white;
+	margin-top: 40px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+
+.textbox {
+	text-align: center;
+}
+.textbox h1 {
+	color: white;
+	font-size: 90px;
+	margin-top: 80px;
+}
+
+.textbox h2 {
+	font-size: 45px;
+	margin-top: 0px;
+	color: white;
+}
+
+.textbox p {
+	margin-top: 40px;
+	font-size: 20px;
+	color: white;
+	line-height: 30px;
+}
+
+.guzik {
+	text-align: center;
+	margin-top: 70px;
+}
+
+button {
+	width: 240px;
+	height: 70px;
+	background-color: rgb(46, 42, 42);
+	color: white;
+	border-radius: 40px;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
+button:hover {
+	box-shadow: 0 0 15px #000000;
+	background-color: #2e2b2c;
+	cursor: pointer;
+}
